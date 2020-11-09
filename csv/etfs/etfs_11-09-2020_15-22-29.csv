@@ -1,0 +1,26 @@
+Symbol , Exchange , Short Name , Market , Tradeable, Regular Market Price , Regular Market Change , Regular Market Previous Close , 50 Day Avg ,  200 Day Avg , 52 Week Low , 52 Week High
+RYE , PCX , Invesco S&P 500 Equal Weight En , us_market , 1 , 25.8067 , 4.1467 , 21.66 , 22.6203 , 26.516 , 15.91 , 49.03
+KRE , PCX , SPDR S&P Regional Banking ETF , us_market , 1 , 48.56 , 7.2 , 41.36 , 38.9074 , 38.1593 , 27.26 , 59.38
+IEO , BTS , iShares U.S. Oil & Gas Explorat , us_market , 1 , 29.75 , 4.43 , 25.32 , 26.714 , 31.5073 , 17.63 , 56.97
+PXI , NMS , Invesco DWA Energy Momentum ETF , us_market , 1 , 14.3799 , 2.0599 , 12.32 , 12.9577 , 14.6739 , 9 , 28.64
+XLE , PCX , SPDR Select Sector Fund - Energ , us_market , 1 , 33.495 , 4.565 , 28.93 , 29.962 , 35.5163 , 22.88 , 62.44
+VDE , PCX , Vanguard Energy ETF , us_market , 1 , 45.2258 , 6.0758 , 39.15 , 40.5177 , 47.5183 , 30.03 , 83.27
+IYE , PCX , iShares U.S. Energy ETF , us_market , 1 , 17.85 , 2.32 , 15.53 , 16.0269 , 18.8406 , 12.13 , 32.84
+JHME , PCX , John Hancock Multifactor Energy , us_market , 1 , 12.6499 , 1.6631 , 10.9868 , 11.4193 , 13.2257 , 7.712 , 24.85
+IXC , PCX , iShares Global Energy ETF , us_market , 1 , 18.245 , 2.255 , 15.99 , 16.3763 , 18.773 , 12.23 , 31.72
+FILL , PCX , iShares MSCI Global Energy Prod , us_market , 1 , 11.67 , 1.34 , 10.33 , 10.4291 , 11.799 , 7.77 , 19.57
+FXO , PCX , First Trust Financials AlphaDEX , us_market , 1 , 31.51 , 3.42 , 28.09 , 26.948 , 25.8645 , 17.42 , 34.65
+RDIV , PCX , Invesco Exchange-Traded Fund Tr , us_market , 1 , 31.37 , 3.34 , 28.03 , 27.7454 , 27.8011 , 19.38 , 40.11
+RDOG , PCX , ALPS ETF Trust ALPS REIT Divide , us_market , 1 , 38.58 , 4.5571 , 34.0229 , 34.7826 , 35.7196 , 23.83 , 51.35
+RYF , PCX , Invesco S&P 500 Equal Weight Fi , us_market , 1 , 44.76 , 4.32 , 40.44 , 39.3003 , 38.0845 , 26 , 48.23
+CRAK , PCX , VanEck Vectors Oil Refiners ETF , us_market , 1 , 21.58 , 1.9423 , 19.6377 , 19.8335 , 21.2354 , 13.801 , 30.338
+IYG , PCX , iShares U.S. Financial Services , us_market , 1 , 138.951 , 12.6708 , 126.28 , 124.098 , 122.112 , 86.42 , 156.97
+ATMP , BTS , iPath Select MLP ETN , us_market , 1 , 10.52 , 0.96 , 9.56 , 9.56561 , 10.638 , 5.8 , 18.35
+MLPX , PCX , Global X MLP & Energy Infrastru , us_market , 1 , 24.005 , 2.0875 , 21.9175 , 22.9017 , 24.5918 , 13.29 , 37.77
+ENFR , PCX , Alerian Energy Infrastructure E , us_market , 1 , 13.47 , 1.18 , 12.29 , 12.7283 , 13.6927 , 7.46 , 21.42
+SPVU , PCX , Invesco S&P 500 Enhanced Value  , us_market , 1 , 31.3236 , 2.7292 , 28.5944 , 27.8347 , 28.0114 , 19.97 , 39.12
+CSB , NGM , VictoryShares US Small Cap High , us_market , 1 , 44.1985 , 3.6485 , 40.55 , 39.4641 , 37.4699 , 26.8 , 47.685
+FNCL , PCX , Fidelity MSCI Financials Index  , us_market , 1 , 38.987 , 3.347 , 35.64 , 34.7243 , 34.0047 , 24.51 , 45.33
+XLF , PCX , SPDR Select Sector Fund - Finan , us_market , 1 , 27.315 , 2.355 , 24.96 , 24.4606 , 23.9668 , 17.49 , 31.38
+VFH , PCX , Vanguard Financials ETF , us_market , 1 , 67.4258 , 5.8258 , 61.6 , 60.0137 , 58.7438 , 42.34 , 77.95
+KIE , PCX , SPDR S&P Insurance ETF , us_market , 1 , 32.4 , 2.7 , 29.7 , 28.9729 , 28.1588 , 20.23 , 37.57

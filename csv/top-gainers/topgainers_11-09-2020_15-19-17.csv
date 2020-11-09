@@ -1,0 +1,26 @@
+Symbol , Exchange , Short Name , Market , Tradeable, Regular Market Price , Regular Market Change , Regular Market Previous Close , 50 Day Avg ,  200 Day Avg , 52 Week Low , 52 Week High 
+EPR , NYQ , EPR Properties , us_market , 1 , 33.5 , 10.19 , 23.31 , 24.9486 , 30.1278 , 12.56 , 74.65
+RYCEF , PNK , ROLLS ROYCE HOLDINGS , us_market , 1 , 1.36 , 0.41 , 0.95 , 2.04 , 3.16324 , 0.88 , 9.76
+PK , NYQ , Park Hotels & Resorts Inc. , us_market , 1 , 14.6 , 4.3 , 10.3 , 10.2031 , 9.78014 , 3.99 , 26.58
+SABR , NMS , Sabre Corporation , us_market , 1 , 9.885 , 2.805 , 7.08 , 6.67229 , 7.33273 , 3.3 , 23.25
+ESBA , PCX , Empire State Realty OP  L.P. Se , us_market , 1 , 7.5493 , 2.1393 , 5.41 , 6.06371 , 6.70043 , 5.19 , 14.52
+SLG , NYQ , SL Green Realty Corp , us_market , 1 , 60.99 , 17.17 , 43.82 , 46.7083 , 47.5789 , 35.16 , 96.39
+CUK , NYQ , Carnival Plc , us_market , 1 , 16.54 , 4.62 , 11.92 , 12.348 , 13.0616 , 7.08 , 49.03
+OGCP , PCX , Empire State Realty OP  L.P. Se , us_market , 1 , 7.44 , 2.08 , 5.36 , 6.09914 , 6.68899 , 5.25 , 14.44
+REG , NMS , Regency Centers Corporation , us_market , 1 , 46.995 , 12.945 , 34.05 , 37.6697 , 41.2848 , 31.8 , 65.89
+ESRT , NYQ , Empire State Realty Trust  Inc. , us_market , 1 , 7.555 , 2.065 , 5.49 , 6.13029 , 6.74489 , 5.19 , 14.59
+FRT , NYQ , Federal Realty Investment Trust , us_market , 1 , 94.06 , 25.13 , 68.93 , 74.2083 , 79.3091 , 64.11 , 133.15
+RHP , NYQ , Ryman Hospitality Properties  I , us_market , 1 , 55.525 , 14.875 , 40.65 , 39.5623 , 35.8788 , 13.25 , 91.57
+CCL , NYQ , Carnival Corporation , us_market , 1 , 18.76 , 4.94 , 13.82 , 14.4374 , 15.4937 , 7.8 , 51.94
+KIM , NYQ , Kimco Realty Corporation , us_market , 1 , 13.865 , 3.605 , 10.26 , 11.1486 , 11.6622 , 7.45 , 21.86
+NWITY , PNK , NETWORK INTL HLDGS PLC UNSPONS  , us_market , 1 , 3.65 , 0.95 , 2.7 , 3.40377 , 4.90634 , 2.54 , 8.77
+FANG , NMS , Diamondback Energy  Inc. - Comm , us_market , 1 , 33.45 , 8.71 , 24.74 , 29.0206 , 38.1709 , 14.55 , 96.92
+ESYJY , PNK , EASYJET , us_market , 1 , 9.455 , 2.415 , 7.04 , 6.65143 , 7.76259 , 5 , 19.94
+CPA , NYQ , Copa Holdings  S.A. Copa Holdin , us_market , 1 , 68.13 , 16.97 , 51.16 , 51.9934 , 49.4766 , 24 , 116.88
+PEB , NYQ , Pebblebrook Hotel Trust , us_market , 1 , 16.5 , 4.06 , 12.44 , 12.7617 , 12.5191 , 5.39 , 27.7
+VLO , NYQ , Valero Energy Corporation , us_market , 1 , 50.54 , 12.37 , 38.17 , 41.5449 , 53.9341 , 31 , 101.87
+HST , NMS , Host Hotels & Resorts  Inc. , us_market , 1 , 13.835 , 3.35 , 10.485 , 10.9709 , 11.2838 , 7.86 , 18.9
+AER , NYQ , AerCap Holdings N.V. , us_market , 1 , 35.7 , 8.66 , 27.04 , 26.526 , 29.1218 , 10.42 , 64.86
+BRX , NYQ , Brixmor Property Group Inc. , us_market , 1 , 14.65 , 3.5 , 11.15 , 11.6611 , 11.9402 , 7.51 , 22.74
+RETA , NMS , Reata Pharmaceuticals  Inc. , us_market , 1 , 174.45 , 42.56 , 131.89 , 111.431 , 133.422 , 88.17 , 257.965
+FSR , NYQ , Fisker Inc. , us_market , 1 , 14.32 , 3.46 , 10.86 , 10.9817 , 10.58 , 8.9 , 6119

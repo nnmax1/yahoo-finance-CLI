@@ -1,0 +1,26 @@
+Symbol , Exchange , Short Name , Market , Tradeable, Regular Market Price , Regular Market Change , Regular Market Previous Close , 50 Day Avg ,  200 Day Avg , 52 Week Low , 52 Week High 
+RYE , PCX , Invesco S&P 500 Equal Weight En , us_market , 1 , 24.89 , 3.23 , 21.66 , 22.6203 , 26.516 , 15.91 , 49.03
+KRE , PCX , SPDR S&P Regional Banking ETF , us_market , 1 , 47.2 , 5.84 , 41.36 , 38.9074 , 38.1593 , 27.26 , 59.38
+IEO , BTS , iShares U.S. Oil & Gas Explorat , us_market , 1 , 28.8317 , 3.5117 , 25.32 , 26.714 , 31.5073 , 17.63 , 56.97
+XLE , PCX , SPDR Select Sector Fund - Energ , us_market , 1 , 32.485 , 3.555 , 28.93 , 29.962 , 35.5163 , 22.88 , 62.44
+VDE , PCX , Vanguard Energy ETF , us_market , 1 , 43.885 , 4.735 , 39.15 , 40.5177 , 47.5183 , 30.03 , 83.27
+JHME , PCX , John Hancock Multifactor Energy , us_market , 1 , 12.31 , 1.3232 , 10.9868 , 11.4193 , 13.2257 , 7.712 , 24.85
+IYE , PCX , iShares U.S. Energy ETF , us_market , 1 , 17.34 , 1.81 , 15.53 , 16.0269 , 18.8406 , 12.13 , 32.84
+PXI , NMS , Invesco DWA Energy Momentum ETF , us_market , 1 , 13.8904 , 1.5604 , 12.33 , 12.9577 , 14.6739 , 9 , 28.64
+IXC , PCX , iShares Global Energy ETF , us_market , 1 , 17.835 , 1.845 , 15.99 , 16.3763 , 18.773 , 12.23 , 31.72
+RDOG , PCX , ALPS ETF Trust ALPS REIT Divide , us_market , 1 , 38.0419 , 4.019 , 34.0229 , 34.7826 , 35.7196 , 23.83 , 51.35
+FILL , PCX , iShares MSCI Global Energy Prod , us_market , 1 , 11.44 , 1.11 , 10.33 , 10.4291 , 11.799 , 7.77 , 19.57
+FXO , PCX , First Trust Financials AlphaDEX , us_market , 1 , 30.92 , 2.83 , 28.09 , 26.948 , 25.8645 , 17.42 , 34.65
+RDIV , PCX , Invesco Exchange-Traded Fund Tr , us_market , 1 , 30.7435 , 2.7135 , 28.03 , 27.7454 , 27.8011 , 19.38 , 40.11
+IYG , PCX , iShares U.S. Financial Services , us_market , 1 , 136.995 , 10.715 , 126.28 , 124.098 , 122.112 , 86.42 , 156.97
+CRAK , PCX , VanEck Vectors Oil Refiners ETF , us_market , 1 , 21.36 , 1.7223 , 19.6377 , 19.8335 , 21.2354 , 13.801 , 30.338
+RYF , PCX , Invesco S&P 500 Equal Weight Fi , us_market , 1 , 43.85 , 3.41 , 40.44 , 39.3003 , 38.0845 , 26 , 48.23
+CSD , PCX , Invesco S&P Spin-Off ETF , us_market , 1 , 51.12 , 3.9201 , 47.1999 , 44.7471 , 40.511 , 21.65 , 52.07
+ONEY , PCX , SPDR Russell 1000 Yield Focus E , us_market , 1 , 69.205 , 5.3004 , 63.9046 , 62.5453 , 60.081 , 40.32 , 77.853
+CSB , NMS , VictoryShares US Small Cap High , us_market , 1 , 43.8684 , 3.4184 , 40.45 , 39.4641 , 37.4699 , 26.8 , 47.685
+SMLV , PCX , SPDR SSGA US Small Cap Low Vola , us_market , 1 , 86.115 , 6.3469 , 79.7681 , 78.3109 , 76.7235 , 56 , 101.53
+VTWV , NMS , Vanguard Russell 2000 Value ETF , us_market , 1 , 102.139 , 7.349 , 94.79 , 91.7629 , 87.384 , 60.58 , 113.24
+DVEM , BTS , WisdomTree Emerging Markets Div , us_market , 1 , 26.17 , 1.8797 , 24.2903 , 23.8 , 23.8 , 20.6729 , 33.608
+EXT , PCX , WisdomTree U.S. Total Market Fu , us_market , 1 , 28.8271 , 2.0471 , 26.78 , 28.2147 , 28.2147 , 23.5571 , 37.89
+FNCL , PCX , Fidelity MSCI Financials Index  , us_market , 1 , 38.295 , 2.655 , 35.64 , 34.7243 , 34.0047 , 24.51 , 45.33
+IWN , PCX , iShares Russell 2000 Value ETF , us_market , 1 , 116.045 , 8.055 , 107.99 , 104.674 , 99.7917 , 69.27 , 130.16

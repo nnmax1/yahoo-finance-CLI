@@ -1,0 +1,26 @@
+Symbol , Exchange , Short Name , Market , Tradeable, Regular Market Price , Regular Market Change , Regular Market Previous Close , 50 Day Avg ,  200 Day Avg , 52 Week Low , 52 Week High 
+RYCEF , PNK , ROLLS ROYCE HOLDINGS , us_market , 1 , 1.32 , 0.37 , 0.95 , 2.04 , 3.16324 , 0.88 , 9.76
+EPR , NYQ , EPR Properties , us_market , 1 , 32.78 , 9.47 , 23.31 , 24.9486 , 30.1278 , 12.56 , 74.65
+CUK , NYQ , Carnival Plc , us_market , 1 , 16.76 , 4.84 , 11.92 , 12.348 , 13.0616 , 7.08 , 49.03
+SABR , NMS , Sabre Corporation , us_market , 1 , 9.845 , 2.765 , 7.08 , 6.67229 , 7.33273 , 3.3 , 23.25
+CCL , NYQ , Carnival Corporation , us_market , 1 , 18.825 , 5.005 , 13.82 , 14.4374 , 15.4937 , 7.8 , 51.94
+NWITY , PNK , NETWORK INTL HLDGS PLC UNSPONS  , us_market , 1 , 3.65 , 0.95 , 2.7 , 3.40377 , 4.90634 , 2.54 , 8.77
+ESYJY , PNK , EASYJET , us_market , 1 , 9.455 , 2.415 , 7.04 , 6.65143 , 7.76259 , 5 , 19.94
+SLG , NYQ , SL Green Realty Corp , us_market , 1 , 58.48 , 14.66 , 43.82 , 46.7083 , 47.5789 , 35.16 , 96.39
+PK , NYQ , Park Hotels & Resorts Inc. , us_market , 1 , 13.745 , 3.445 , 10.3 , 10.2031 , 9.78014 , 3.99 , 26.58
+FSR , NYQ , Fisker Inc. , us_market , 1 , 14.429 , 3.569 , 10.86 , 10.9817 , 10.58 , 8.9 , 6119
+USFD , NYQ , US Foods Holding Corp. , us_market , 1 , 30.96 , 7.64 , 23.32 , 23.3277 , 21.7555 , 8.32 , 42.28
+OGCP , PCX , Empire State Realty OP  L.P. Se , us_market , 1 , 7.04 , 1.68 , 5.36 , 6.09914 , 6.68899 , 5.25 , 14.44
+ESBA , PCX , Empire State Realty OP  L.P. Se , us_market , 1 , 7.09 , 1.68 , 5.41 , 6.06371 , 6.70043 , 5.19 , 14.52
+KIM , NYQ , Kimco Realty Corporation , us_market , 1 , 13.43 , 3.17 , 10.26 , 11.1486 , 11.6622 , 7.45 , 21.86
+FRT , NYQ , Federal Realty Investment Trust , us_market , 1 , 90.085 , 21.155 , 68.93 , 74.2083 , 79.3091 , 64.11 , 133.15
+AER , NYQ , AerCap Holdings N.V. , us_market , 1 , 35.33 , 8.29 , 27.04 , 26.526 , 29.1218 , 10.42 , 64.86
+ESRT , NYQ , Empire State Realty Trust  Inc. , us_market , 1 , 7.2 , 1.71 , 5.49 , 6.13029 , 6.74489 , 5.19 , 14.59
+VLO , NYQ , Valero Energy Corporation , us_market , 1 , 49.8225 , 11.6525 , 38.17 , 41.5449 , 53.9341 , 31 , 101.87
+HFC , NYQ , HollyFrontier Corporation , us_market , 1 , 22.875 , 5.305 , 17.57 , 19.7377 , 26.0296 , 16.81 , 55.01
+REG , NMS , Regency Centers Corporation , us_market , 1 , 44.37 , 10.32 , 34.05 , 37.6697 , 41.2848 , 31.8 , 65.89
+BABWF , PNK , INTERNATIONAL CONSOLIDATED AIRL , us_market , 1 , 1.76 , 0.405 , 1.355 , 1.29771 , 2.35165 , 1.17 , 8.48
+CPA , NYQ , Copa Holdings  S.A. Copa Holdin , us_market , 1 , 66.25 , 15.09 , 51.16 , 51.9934 , 49.4766 , 24 , 116.88
+RETA , NMS , Reata Pharmaceuticals  Inc. , us_market , 1 , 170.68 , 38.79 , 131.89 , 111.431 , 133.422 , 88.17 , 257.965
+VNO , NYQ , Vornado Realty Trust , us_market , 1 , 39.17 , 8.8 , 30.37 , 33.4411 , 36.3635 , 27.64 , 68.68
+NOV , NYQ , National Oilwell Varco  Inc. , us_market , 1 , 11.585 , 2.585 , 9 , 9.10829 , 11.4717 , 7.7 , 25.81
