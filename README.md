@@ -88,7 +88,7 @@ Data saved to quotes_11-09-2020_15-01-21.csv
 <a href="csv/top-gainers">topgainers.csv</a><br>
 <a href="csv/insider-trades">insidertrades.csv</a><br>
 <a href= "csv/etfs">etfs.csv</a><br>
-<a href= "csv/mututal-funds">mutual-funds</a><br>
+<a href= "csv/mutual-funds">mutual-funds</a><br>
 <a href= "csv/quotes">quotes.csv</a><br>
 
 <br><br>
