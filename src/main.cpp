@@ -3,9 +3,8 @@
 #include "app.hpp"
 #include <iostream>
 #include <thread>
-#include "quotes.hpp"
 #include <cctype>
-
+#include "quote.hpp"
 void makeUpper(std::string &str) {
     for(char ch : str) {
         ch = toupper(ch);
@@ -23,22 +22,11 @@ bool validateCommand(std::string c, std::vector<std::string> arr) {
 // entry point
 int main(int argc , char * argv[]) {
     //pass in API Key and option as command line args
-    std::vector<std::string> q ;
-    std::string key = argv[1];
+    std::vector<std::string> symbols ;
+    std::string key = argv[1], ticker;
     std::string command = argv[2];
-    std::vector<std::string> options = {"--top-gainers", "--etfs", "--mutual-funds", "--insider-trades", "--quotes"};
+    std::vector<std::string> options = {"--top-gainers", "--etfs", "--mutual-funds", "--insider-trades", "--quotes", "--print-quote"};
 
-    if(argc != 3 &&  command != "--quotes") {
-        std::cout<<"Error! 3 command line arguments needed. \n";
-        std::cout<<" ./app.exe [YOUR_API_KEY] --[type_of_market_data]\n";
-        exit(1);
-    }else if(argc  > 3 && command == "--quotes") {
-        for(int i=3;i<argc;i++) {
-            std::string ticker = argv[i];
-            makeUpper(ticker);
-            q.push_back(ticker);
-        }
-    }
     if(!validateCommand(command, options)) {
         std::cout<<"Invalid command\n";
         exit(1);
@@ -47,18 +35,30 @@ int main(int argc , char * argv[]) {
         std::cout<<"Invalid API KEY.\n";
         exit(1);
     }
-    if(command == "--quotes") {
-        Quotes quotes(key, q);
-        try {
-        quotes.exportQuotes();
-        }catch(std::string * exc) {
-            std::cout<<*exc<<"\n";
+
+    if(argc > 3 && command != "--quotes" && command != "--print-quote") {
+        std::cout<<"Error! 3 command line arguments needed. \n";
+        std::cout<<" ./app.exe [YOUR_API_KEY] --[arguments]\n";
+        exit(1);
+    }else if(argc == 4 && command == "--print-quote"){
+        ticker = argv[3];
+    }else if(argc != 4 && command == "--print-quote") {
+        std::cout<<"Invalid usage of --print-quote\n";
+        exit(1);
+    }else if(argc  > 3 && command == "--quotes") {
+        for(int i=3;i<argc;i++) {
+            std::string ticker = argv[i];
+            makeUpper(ticker);
+            symbols.push_back(ticker);
         }
-        std::cout<<"Data saved to quotes_"+quotes.getDate()+".csv\n";
-    }else {
-        std::thread dataThread(App(),key,command) ; 
-        dataThread.join();
     }
 
+    if(command == "--print-quote") {
+        Quote q(key, ticker);
+        q.show();
+    }else {
+        std::thread dataThread(App(),key,command, symbols) ; 
+        dataThread.join();
+    }
     return 0;
 }

@@ -1,11 +1,14 @@
 
 #include "app.hpp"
-
+#include "quotes.hpp"
 #include "marketItem.hpp"
 #include "insidertrades.hpp"
 #include <chrono> 
 #include <thread> 
 #include <iostream>
+#include <mutex>
+std::mutex globalMutex;
+
 
 void App::topGainers() {
     //continuously gather data every  2 minutes
@@ -56,12 +59,24 @@ void App::insiderTrades() {
         }
         insidertrades.refresh();
 }
-
-    void App::operator()(std::string k, std::string choice)  {
+    void App::marketQuotes(std::vector<std::string> t) {
+        Quotes quotes(key, t);
+        try {
+        quotes.exportQuotes();
+        }catch(std::string * exc) {
+            std::cout<<*exc<<"\n";
+        }
+        std::cout<<"Data saved to quotes_"+quotes.getDate()+".csv\n";
+    }
+    void App::operator()(std::string k, std::string choice, std::vector<std::string> t)  {
         key = k;
         bool run = true;
         while(run){
             std::cout<<"Fetching data from yahoo-finance15 API......\n";
+            globalMutex.lock();
+            if(choice == "--quotes") {
+                marketQuotes(t);
+            }
             if(choice == "--top-gainers"){
                 topGainers() ;
             }else if(choice == "--etfs"){
@@ -71,6 +86,7 @@ void App::insiderTrades() {
             }else if(choice == "--insider-trades"){
                 insiderTrades();
             }
+            globalMutex.unlock();
             std::this_thread::sleep_for(std::chrono::minutes(5));
         }
     } 

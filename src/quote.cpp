@@ -21,7 +21,7 @@ using namespace jsonxx ;
         storeData();
     }
     void Quote::show() {
-        std::cout<<currentQuote.longName<<"\n";
+        std::cout<<"\n"<<currentQuote.longName<<"\n";
         std::cout<<"ASK: "<<currentQuote.ask<<"  |  BID: "<<currentQuote.bid<<"\n";
         std::cout<<"ASK SIZE: "<<currentQuote.askSize<<"  |  BID SIZE: "<<currentQuote.bidSize<<"\n";
         std::cout<<"EXCHANGE: "<<currentQuote.exchange<<"\n";

@@ -45,7 +45,6 @@ using namespace jsonxx ;
         writer<<"Symbol , Exchange , Short Name , Market , Tradeable, Regular Market Price , ";
         writer<<"Regular Market Change , Regular Market Previous Close , ";
         writer<<"50 Day Avg ,  200 Day Avg , 52 Week Low , 52 Week High \n";
-       writer<<jsonStr<<"\n";
         for(int j=0;j<count;j++) {
            writer<<stocks[j].getSymbol()<< " , "<<stocks[j].getExchange()<<" , "<<stocks[j].getShortName()<<" , ";
            writer<<stocks[j].getMarket()<< " , "<<stocks[j].isTradeable()<<" , ";

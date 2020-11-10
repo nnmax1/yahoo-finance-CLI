@@ -1,0 +1,26 @@
+Symbol , Exchange , Short Name , Market , Tradeable, Regular Market Price , Regular Market Change , Regular Market Previous Close , 50 Day Avg ,  200 Day Avg , 52 Week Low , 52 Week High 
+MGPUF , PNK , M&G PLC , us_market , 1 , 2.45 , 0.48 , 1.97 , 1.99863 , 1.93698 , 1.28 , 3.2355
+AICAF , PNK , AIR CHINA LTD , us_market , 1 , 0.79265 , 0.14845 , 0.6442 , 0.665 , 0.661942 , 0.57 , 1.01
+WES , NYQ , Western Midstream Partners  LP , us_market , 1 , 11.1564 , 2.0664 , 9.09 , 8.30167 , 9.03719 , 2.9 , 22.11
+OISHY , PNK , OIL SEARCH LTD , us_market , 1 , 12.27 , 1.9975 , 10.2725 , 10.0033 , 10.6357 , 5.47 , 27.21
+MRVGF , PNK , MIRVAC GROUP , us_market , 1 , 1.93 , 0.31 , 1.62 , 1.56944 , 1.49965 , 0.95 , 2.4
+MLSPF , PNK , MELROSE INDUSTRIES PLC , us_market , 1 , 1.98 , 0.31 , 1.67 , 1.57083 , 1.42309 , 0.89 , 3.22
+FRRVF , PNK , FERROVIAL SA , us_market , 1 , 27.8 , 4.1626 , 23.6374 , 24.6135 , 26.1667 , 22.1532 , 32.3487
+OPK , NMS , Opko Health  Inc. , us_market , 1 , 3.805 , 0.54 , 3.265 , 3.89778 , 3.59863 , 1.12 , 6.47
+SPR , NYQ , Spirit Aerosystems Holdings  In , us_market , 1 , 30.1403 , 3.3803 , 26.76 , 19.4914 , 21.6335 , 13.69 , 92.81
+HNDAF , PNK , HONDA MOTOR CO , us_market , 1 , 29.05 , 3.3 , 25.75 , 24.1264 , 24.914 , 18.26 , 29.49
+TSYHF , PNK , TRAVELSKY TECHNOLOGY , us_market , 1 , 2.44 , 0.272 , 2.168 , 2.13722 , 1.96691 , 1.41 , 2.44
+KPCPY , PNK , KASIKORNBANK PUBLIC COMPANY LIM , us_market , 1 , 12.195 , 1.345 , 10.85 , 9.67 , 10.8624 , 8.89 , 20.69
+DNFGF , PNK , DONGFENG MOTOR GROUP CO , us_market , 1 , 1.19 , 0.13 , 1.06 , 0.689167 , 0.677986 , 0.58 , 1.2
+TEFOF , PNK , TELEFONICA SA , us_market , 1 , 4 , 0.41 , 3.59 , 3.53361 , 4.23151 , 3.17 , 7.55
+PCCYF , PNK , PETROCHINA CO , us_market , 1 , 0.33 , 0.0336 , 0.2964 , 0.295833 , 0.331799 , 0.27 , 0.54
+REPYY , PNK , REPSOL SA , us_market , 1 , 9.05 , 0.92 , 8.13 , 6.91111 , 8.26331 , 5.94 , 16.5
+FSNUF , PNK , FRESENIUS SE&CO KGAA , us_market , 1 , 44.52 , 4.4551 , 40.0649 , 43.0272 , 46.9476 , 26.87 , 55.93
+CAIXY , PNK , CAIXABANK SA , us_market , 1 , 0.773 , 0.077 , 0.696 , 0.658708 , 0.676268 , 0.47 , 1.05
+SWTX , NMS , SpringWorks Therapeutics  Inc. , us_market , 1 , 60.125 , 5.875 , 54.25 , 55.0742 , 44.0816 , 17.02 , 66.95
+BTGOF , PNK , BT GROUP , us_market , 1 , 1.55 , 0.15 , 1.4 , 1.32028 , 1.38755 , 1.19 , 2.78
+CVAC , NGM , CureVac N.V. , us_market , 1 , 61 , 6.34 , 54.66 , 50.1106 , 53.6295 , 36.15 , 85
+MAKSY , PNK , MARKS & SPENCER GROUP , us_market , 1 , 3.1433 , 0.2933 , 2.85 , 2.44194 , 2.52475 , 1.95 , 6.1
+CJPRY , PNK , CENTRAL JAPAN RAILWAY CO , us_market , 1 , 14.31 , 1.31 , 13 , 13.7556 , 14.8114 , 11.66 , 20.99
+JWN , NYQ , Nordstrom  Inc. , us_market , 1 , 17.745 , 1.585 , 16.16 , 12.9106 , 15.5283 , 11.72 , 43.37
+TRIP , NMS , TripAdvisor  Inc. , us_market , 1 , 26.84 , 2.53 , 24.31 , 19.8661 , 20.3295 , 13.73 , 32.1

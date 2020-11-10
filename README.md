@@ -80,7 +80,7 @@ Data saved to quotes_11-09-2020_15-01-21.csv
 <li>--etfs : send GET Request to ETFs endpoint every 5 min and save data to csv</li>
 <li>--insider-trades : send GET Request to insider trades endpoint every 5 min and save data to csv</li>
 <li>--quotes [STOCK_TICKERS] : send GET Request to market/quotes endpoint and save data to csv </li>
-
+<li>--print-quote [STOCK_TICKER] : prints the stock's quote to the console </li> 
 <br>
 <br>
 
