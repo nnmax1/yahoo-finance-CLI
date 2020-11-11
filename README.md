@@ -2,6 +2,7 @@
 # Yahoo Finance API Command Line Tool 
 
 
+
 <h2>About</h2>
 <li>This is a command line tool to get data from the yahoo-finance15 API </li>
 <li>All you need is your RapidAPI Key.</li> 
@@ -81,10 +82,11 @@ Saved insider-trades data at 11-09-2020_13-01-37
 <pre>
 ~$ ./app.exe [YOUR_API_KEY] --quotes MSFT AAPL TSLA NVDA AMD
 </pre>
-<a href="csv/quotes/"> </a><br>
-<br><br>
+<br>
+
 <h3>Example usage of --print-quote </h3>
 <pre>
+~$ ./app.exe [YOUR_API_KEY] --print-quote NVDA
 NVIDIA Corporation
 ASK: 531.33  |  BID: 531.1   
 ASK SIZE: 13  |  BID SIZE: 10
@@ -106,19 +108,6 @@ REG. MARKET PREV. CLOSE: 510.8
 200 DAY AVG. CHANGE: 89.524
 1 YEAR HIGH: 589.07  |  1 YEAR LOW: 180.68
 </pre>
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 <h2>Sample CSV Data: </h2>
 <a href="csv/top-gainers">topgainers.csv</a><br>
