@@ -22,6 +22,9 @@ bool validateCommand(std::string c, std::vector<std::string> arr) {
 // entry point
 int main(int argc , char * argv[]) {
     //pass in API Key and option as command line args
+    if(argc < 3) {
+        exit(1);
+    }
     std::vector<std::string> symbols ;
     std::string key = argv[1], ticker;
     std::string command = argv[2];
@@ -37,7 +40,7 @@ int main(int argc , char * argv[]) {
     }
 
     if(argc > 3 && command != "--quotes" && command != "--print-quote") {
-        std::cout<<"Error! 3 command line arguments needed. \n";
+        std::cout<<"Invalid arguments. \n";
         std::cout<<" ./app.exe [YOUR_API_KEY] --[arguments]\n";
         exit(1);
     }else if(argc == 4 && command == "--print-quote"){
@@ -51,6 +54,8 @@ int main(int argc , char * argv[]) {
             makeUpper(ticker);
             symbols.push_back(ticker);
         }
+    }else if(argc == 3 && command == "--quotes") {
+        exit(1);
     }
 
     if(command == "--print-quote") {

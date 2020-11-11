@@ -2,7 +2,6 @@
 # Yahoo Finance API Command Line Tool 
 
 
-
 <h2>About</h2>
 <li>This is a command line tool to get data from the yahoo-finance15 API </li>
 <li>All you need is your RapidAPI Key.</li> 

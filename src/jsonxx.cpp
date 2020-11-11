@@ -26,7 +26,8 @@
 #include <cassert>
 void jsonxx::assertion( const char *file, int line, const char *expression, bool result ) {
     if( !result ) {
-        fprintf( stderr, "[JSONXX] expression '%s' failed at %s:%d -> ", expression, file, line );
+       // fprintf( stderr, "[JSONXX] expression '%s' failed at %s:%d -> ", expression, file, line );
+        fprintf( stderr, "JSONXX expression failed to parse due to invalid API KEY or an issue with the API.\n" );
         assert( 0 );
     }
 }

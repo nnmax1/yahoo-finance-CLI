@@ -54,6 +54,7 @@ using namespace jsonxx ;
        count = jsonxxObj.get<Number>("records");
        for(int i=0;i<count;i++) {
            Insider ins;
+            try {
            ins.date = jsonxxObj.get<Array>("form_4_filings").get<Object>(i).get<String>("date");
            ins.symbol = jsonxxObj.get<Array>("form_4_filings").get<Object>(i).get<String>("symbol");
            std::string tempRel = jsonxxObj.get<Array>("form_4_filings").get<Object>(i).get<String>("relationship");
@@ -66,6 +67,9 @@ using namespace jsonxx ;
            ins.transactionCode =  jsonxxObj.get<Array>("form_4_filings").get<Object>(i).get<String>("transactionCode");
            ins.aveg_pricePerShare =  jsonxxObj.get<Array>("form_4_filings").get<Object>(i).get<Number>("aveg_pricePerShare");
            ins.sum_transactionShares = jsonxxObj.get<Array>("form_4_filings").get<Object>(i).get<Number>("sum_transactionShares");
+            }catch(std::string * exception) {
+                std::cout<<*exception<<"\n";
+            }
            insiders.push_back(ins);
        }
     }
