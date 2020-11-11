@@ -113,7 +113,6 @@ REG. MARKET PREV. CLOSE: 510.8
 <a href="csv/top-gainers">topgainers.csv</a><br>
 <a href="csv/insider-trades">insidertrades.csv</a><br>
 <a href= "csv/etfs">etfs.csv</a><br>
-<a href= "csv/mutual-funds">mutual-funds</a><br>
-<a href= "csv/quotes">quotes.csv</a><br>
+<a href= "csv/mutual-funds">mutual-funds.csv</a><br>
 
 <br><br>
