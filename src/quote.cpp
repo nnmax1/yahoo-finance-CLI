@@ -2,6 +2,8 @@
 #include <iostream>
 #include <iomanip>
 
+#include <fstream>
+
 #include "jsonxx.hpp"
 #include "JSONFetcher.hpp"
 using namespace jsonxx ;
@@ -54,6 +56,7 @@ using namespace jsonxx ;
         currentQuote.exchange = jsonxxObj.get<Object>(0).get<String>("exchange");  
         currentQuote.ask = jsonxxObj.get<Object>(0).get<Number>("ask");
         currentQuote.bid = jsonxxObj.get<Object>(0).get<Number>("bid");    
+        currentQuote.marketCap = jsonxxObj.get<Object>(0).get<Number>("marketCap");    
         currentQuote.askSize = jsonxxObj.get<Object>(0).get<Number>("askSize");  
         currentQuote.bidSize = jsonxxObj.get<Object>(0).get<Number>("bidSize");  
         currentQuote.averageDailyVolume10Day =jsonxxObj.get<Object>(0).get<Number>("averageDailyVolume10Day");

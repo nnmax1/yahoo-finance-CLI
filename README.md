@@ -51,9 +51,19 @@ make[1]: Leaving directory '/mnt/c/Users/nnmax/Documents/GitHub/yahoo-finance-CL
 </pre>
 
 
+<h2>Command line Arguments: </h2>
+<li>--top-gainers : send GET Request to market/top-gainers endpoint  every 5 min and save data to csv</li>
+<li>--mutual-funds : send GET Request mutual-funds endpoint every 5 min and save data to csv</li>
+<li>--etfs : send GET Request to ETFs endpoint every 5 min and save data to csv</li>
+<li>--insider-trades : send GET Request to insider trades endpoint every 5 min and save data to csv</li>
+<li>--quotes [STOCK_TICKERS] : send GET Request to market/quotes endpoint and save data to csv </li>
+<li>--print-quote [STOCK_TICKER] : prints the stock's quote to the console </li> 
+<br>
+<br>
 
 
-<h2>Use the tool </h2>
+
+<h2>Usage</h2>
 <pre>
 ~$ ./app.exe [YOUR_API_KEY] --[arguments]
 </pre>
@@ -69,20 +79,46 @@ Saved insider-trades data at 11-09-2020_13-01-37
 <br>
 <h3>Example to get Stock Quotes </h3>
 <pre>
-~$ ./app.exe [YOUR_API_KEY] --quotes MSFT AAP TSLA NVDA AMD
-Data saved to quotes_11-09-2020_15-01-21.csv
+~$ ./app.exe [YOUR_API_KEY] --quotes MSFT AAPL TSLA NVDA AMD
 </pre>
-<a href="csv/quotes/quotes_11-09-2020_15-01-21.csv">quotes_11-09-2020_15-01-21.csv</a><br>
+<a href="csv/quotes/"> </a><br>
 <br><br>
-<h2>Command line Arguments: </h2>
-<li>--top-gainers : send GET Request to market/top-gainers endpoint  every 5 min and save data to csv</li>
-<li>--mutual-funds : send GET Request mutual-funds endpoint every 5 min and save data to csv</li>
-<li>--etfs : send GET Request to ETFs endpoint every 5 min and save data to csv</li>
-<li>--insider-trades : send GET Request to insider trades endpoint every 5 min and save data to csv</li>
-<li>--quotes [STOCK_TICKERS] : send GET Request to market/quotes endpoint and save data to csv </li>
-<li>--print-quote [STOCK_TICKER] : prints the stock's quote to the console </li> 
-<br>
-<br>
+<h3>Example usage of --print-quote </h3>
+<pre>
+NVIDIA Corporation
+ASK: 531.33  |  BID: 531.1   
+ASK SIZE: 13  |  BID SIZE: 10
+EXCHANGE: NMS
+BOOK VALUE: 22.551
+MARKET CAP: 3.2749e+11       
+TRAILING PE: 97.3851
+FORWARD PE: 47.7626
+REG. MARKET PRICE: 530.165   
+REG. MARKET VOLUME: 5.549e+06
+REG. MARKET HIGH: 532.55     
+REG. MARKET LOW: 517.964     
+REG. MARKET CHANGE: 19.3646  
+REG. MARKET OPEN: 522.15
+REG. MARKET PREV. CLOSE: 510.8
+50 DAY AVG.: 536.229
+50 DAY AVG. CHANGE: -6.06457
+200 DAY AVG.: 440.641
+200 DAY AVG. CHANGE: 89.524
+1 YEAR HIGH: 589.07  |  1 YEAR LOW: 180.68
+</pre>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <h2>Sample CSV Data: </h2>
 <a href="csv/top-gainers">topgainers.csv</a><br>
